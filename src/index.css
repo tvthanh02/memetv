@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .hidden-scrollbar::-webkit-scrollbar {
+    width: 0px; /* Ẩn thanh cuộn */
+    background: transparent; /* Làm thanh cuộn trong suốt */
+  }
+}
+
 html {
   font-size: 62.5%;
 }

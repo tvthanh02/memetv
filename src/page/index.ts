@@ -1,0 +1,10 @@
+export { default as HomePage } from "@/page/Home";
+export { default as LivePage } from "@/page/Live";
+export { default as MemeshowPage } from "@/page/Memeshow";
+export { default as GamePage } from "@/page/Game";
+export { default as GameDetailPage } from "@/page/GameDetail";
+export { default as StreamerDetailPage } from "@/page/StreamerDetail";
+export { default as MyInfoPage } from "@/page/MyInfo";
+export { default as MySubscribePage } from "@/page/MySubscribe";
+export { default as UserPage } from "@/page/User";
+export { default as SignInPage } from "@/page/auth/SignIn";
