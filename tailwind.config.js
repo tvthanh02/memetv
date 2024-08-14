@@ -45,10 +45,15 @@ export default {
         header: "0 4px 20px 0 rgba(0, 0, 0, .08)",
         sidebar: "0 5px 20px rgba(0, 0, 0, .1)",
         gameCard: "0 10px 20px rgba(209, 31, 34, .5)",
+        tag: "0 0 10px rgba(209, 31, 34, .8)",
+        rankIcon: "0 0 8px rgba(31, 209, 80, .8)",
       },
       spacing: {
         a: "calc(100vh - 6rem - 4rem)",
         b: "calc(383px - 48px)",
+      },
+      backgroundImage: {
+        banner: "url('src/assets/img/banner-new.png')",
       },
     },
   },
