@@ -4,24 +4,39 @@ const Footer = () => {
       <div className="container w-full h-full py-[2rem] flex flex-col justify-between items-center text-center">
         <ul className="list-none flex items-center gap-[5rem]">
           <li className="text-[3.8rem] text-white">
-            <i className="fa-brands fa-square-facebook"></i>
+            <a href="https://facebook.com">
+              <i className="fa-brands fa-square-facebook"></i>
+            </a>
           </li>
           <li className="text-[3.8rem] text-white">
-            <i className="fa-brands fa-square-instagram"></i>
+            <a href="https://instagram.com">
+              <i className="fa-brands fa-square-instagram"></i>
+            </a>
           </li>
           <li className="text-[3.8rem] text-white">
-            <i className="fa-brands fa-square-twitter"></i>
+            <a href="https://x.com">
+              <i className="fa-brands fa-square-twitter"></i>
+            </a>
           </li>
           <li className="text-[3.8rem] text-white">
-            <i className="fa-brands fa-square-youtube"></i>
+            <a href="https://youtube.com">
+              <i className="fa-brands fa-square-youtube"></i>
+            </a>
           </li>
         </ul>
         <ul className="list-none flex items-center gap-[5rem] flex-wrap text-[1.4rem]">
-          <li className="text-white underline">Về chúng tôi</li>
-          <li className="text-white underline">Liên lạc với chúng tôi</li>
-          <li className="text-white underline">Chính sách riêng tư</li>
-          <li className="text-white underline">Chính sách bản quyền</li>
-          <li className="text-white underline">Tải về</li>
+          <li className="text-white underline hover:cursor-pointer">
+            Về chúng tôi
+          </li>
+          <li className="text-white underline hover:cursor-pointer">
+            Liên lạc với chúng tôi
+          </li>
+          <li className="text-white underline hover:cursor-pointer">
+            Chính sách riêng tư
+          </li>
+          <li className="text-white underline hover:cursor-pointer">
+            Chính sách bản quyền
+          </li>
         </ul>
         <p className="text-[1.4rem]">
           Copyright © 2024 TVT PTE. LTD. All Rights Reserved
