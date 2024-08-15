@@ -16,7 +16,9 @@ const LiveCard = (props: propsLiveCard) => {
     <div className="w-full h-full flex flex-col bg-white shadow-md rounded-md overflow-hidden">
       <div className="w-full h-[74%] relative group">
         <div
-          className={`w-full h-full overflow-hidden ${!thumbnail && "bg-gray"}`}
+          className={`w-full h-full overflow-hidden ${
+            !thumbnail && "bg-second"
+          }`}
         >
           {thumbnail && (
             <img
@@ -48,7 +50,7 @@ const LiveCard = (props: propsLiveCard) => {
             </div>
           </div>
           <div className="h-full flex items-end text-[1.2rem]">
-            <div className="flex items-center gap-[0.6rem]">
+            <div className="flex items-center gap-[0.6rem] text-black font-light">
               <span className="text-[1.2rem]">
                 <i className="fa-regular fa-user"></i>
               </span>
