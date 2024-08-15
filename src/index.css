@@ -23,9 +23,9 @@ body {
 
   background-image: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0)
+    rgba(238, 238, 238, 0),
+    rgba(238, 238, 238, 0.5),
+    rgba(238, 238, 238, 0)
   );
 
   background-size: 40px 100%;
@@ -38,4 +38,9 @@ body {
   to {
     background-position: right -40px top 0;
   }
+}
+
+.active {
+  color: white !important;
+  background-color: #d11f22 !important;
 }

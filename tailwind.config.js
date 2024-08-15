@@ -28,7 +28,7 @@ export default {
         brown: "#523536",
         gray: "#5a5a5a",
         lightBackground: "F5F5F5",
-        background: "#eeeeee",
+        background: "#fff",
       },
       gridTemplateColumns: {
         "1/3/1.5": "1fr 3fr 1.5fr",
@@ -38,7 +38,7 @@ export default {
         autoFillMin300: "repeat(auto-fill, minmax(30rem, 1fr))",
         autoFillMin248: "repeat(auto-fill, minmax(22.4rem, 1fr))",
         autoFillMin382: "repeat(auto-fill, minmax(38.2rem, 1fr))",
-        autoFillMin416: "repeat(auto-fill, minmax(41.6rem, 1fr))",
+        autoFillMin398: "repeat(auto-fill, minmax(39.8rem, 1fr))",
         autoFillMin180: "repeat(auto-fill, minmax(18.5rem, 1fr))",
       },
       boxShadow: {
